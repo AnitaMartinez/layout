@@ -13,6 +13,11 @@ body {
   align-items: center;
   padding-left: 15px; }
 
+/* main */
+.main {
+  padding-top: 30px;
+  background-color: #f4f4f4; }
+
 /* footer */
 .footer {
   background-color: #4A4A4A;
@@ -20,6 +25,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; }
+
+.title-lg {
+  color: #000000;
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 40px; }
 
 .title-md {
   color: #FFFFFF;
@@ -38,3 +49,25 @@ button {
   border: none;
   background: none;
   outline: inherit; }
+
+.grid {
+  background-color: #FFFFFF;
+  padding: 30px 15px; }
+
+.card {
+  background-color: #E7FDFF;
+  padding: 5px 15px;
+  margin-bottom: 15px; }
+
+.button {
+  font: inherit;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  background-color: #FF525E;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 12px; }
+
+.txt-btn {
+  color: #FFFFFF; }

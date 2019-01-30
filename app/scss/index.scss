@@ -4,3 +4,33 @@
 @import 'core/typography.scss';
 @import 'layout/components.scss';
 
+
+
+.grid {
+  background-color: $color-light;
+  padding: 30px 15px;
+}
+
+.card {
+  background-color: $color-secondary;
+  padding : 5px 15px;
+  margin-bottom: 15px;
+}
+
+.button {
+  font: inherit;
+  border : none;
+  cursor: pointer;
+  outline: inherit;
+  background-color: $color-primary;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 12px;
+}
+
+.txt-btn {
+  color: $color-light;
+}
+
+
+
