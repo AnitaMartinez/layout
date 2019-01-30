@@ -2,10 +2,27 @@
 body {
   margin : 0;
   box-sizing: border-box;
+  font-family: $font-family-primary;
+  color : $color-midtone;
+  font-size : 18px;
 }
 
 /* header */
 
 .header {
-  background-color: red;
+  background-color: $color-tertiary;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+/* footer */
+
+.footer {
+  background-color: $color-tertiary;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
