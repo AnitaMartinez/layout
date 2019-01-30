@@ -4,7 +4,6 @@ body {
   box-sizing: border-box;
   font-family: $font-family-primary;
   color : $color-tertiary;
-  font-size : 18px;
 }
 
 /* header */
@@ -22,6 +21,31 @@ body {
 .main {
   padding-top: 30px;
   background-color: $color-midtone;
+}
+
+.container-title-main {
+  background-color: $color-light;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  background-color: $color-light;
+  padding: 30px 15px;
+  display: grid;
+
+  @media all and (min-width: 1024px){
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+
+.card {
+  background-color: $color-secondary;
+  padding : 5px 15px;
+  margin-bottom: 15px;
+  box-shadow:0 2px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* footer */

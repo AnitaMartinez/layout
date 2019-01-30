@@ -3,19 +3,33 @@
   color: $color-dark;
   font-size: 24px;
   margin: 0;
-  margin-bottom: 40px;
+  line-height: 27px;
+  font-weight: bold;
 }
 
 .title-md {
   color : $color-light;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
   margin : 0;
+  font-weight: bold;
+}
+
+.txt-main {
+  font-size: 15px;
+  line-height: 22px;
 }
 
 .txt-footer {
   color : $color-light;
   margin : 0;
   font-size: 14px;
+}
+
+.txt-btn {
+  color: $color-light;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
 }
 
