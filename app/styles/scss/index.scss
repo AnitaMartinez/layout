@@ -1,7 +1,7 @@
-@import 'core/variables.scss';
-@import 'layout/generals.scss';
-@import 'layout/components.scss';
-@import 'core/typography.scss';
+@import 'core/variables';
+@import 'layout/generals';
+@import 'layout/components';
+@import 'core/typography';
 
 .header {
   background-color: $color-tertiary;
@@ -20,7 +20,6 @@
 .none-margin-top {
   margin-top: 0;
 }
-
 
 /* Botones */
 
