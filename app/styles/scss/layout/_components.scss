@@ -14,3 +14,17 @@ button {
   padding-top: 15px;
   padding-bottom: 12px;
 }
+
+.btn-menu-open {
+  background-color: transparent;
+  @media all and (min-width: 768px){
+    display: none;
+  }
+}
+
+.btn-menu-close {
+  background-color: transparent;
+  align-self: flex-end;
+  margin-top: 15px;
+  margin-right: 15px;
+}
