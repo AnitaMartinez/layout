@@ -1,11 +1,14 @@
 
 /* Buttons */
 
-.button {
+button {
   font: inherit;
   border : none;
   cursor: pointer;
   outline: inherit;
+}
+
+.btn-main {
   background-color: $color-primary;
   width: 100%;
   padding-top: 15px;

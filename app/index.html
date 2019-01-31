@@ -10,36 +10,84 @@
 </head>
 <body>
 
-<header class="header">
-    <h1 class="title-md">Logotipo</h1>
-</header>
-
-<main class="main">
-    <div class="container-title-main">
-        <h2 class="title-lg">
-            Lorem ipsum
-        </h2>
-    </div>
-    <div class="grid">
-        <div class="card txt-main">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et diam gravida, mattis ligula ac, ultrices lacus. Mauris erat felis, iaculis eget augue non, viverra volutpat tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus molestie sem id interdum tempus. Praesent mattis diam imperdiet lorem pharetra condimentum. Vivamus varius accumsan augue, eu condimentum nisi sagittis eu. Fusce a urna ultricies, ultrices ipsum sed, pharetra ipsum.</p>
-            <p>Mauris sed arcu purus. Phasellus vitae auctor purus. Pellentesque turpis leo, sodales sit amet malesuada vel, rutrum eu ipsum. Duis fermentum augue ut felis eleifend, nec viverra dolor volutpat. Aenean pretium velit a orci efficitur.</p>
-            <button class="button txt-btn" type="button">Button</button>
+    <header>
+        <div class="header">
+            <h1 class="title-md">Logotipo</h1>
+            <button id="btn-open" class="btn-menu-open" type="button" name="button">
+                <img src="icons/menu-open.svg" alt="Botón para abrir menú">
+            </button>
+            <ul class="list-menu txt-menu">
+                <li class="">
+                    <a href="">Home</a>
+                </li>
+                <li class="link-menu-right">
+                    <a href="">Contacto</a>
+                </li>
+            </ul>
         </div>
-        <div class="card txt-main">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et diam gravida, mattis ligula ac, ultrices lacus. Mauris erat felis, iaculis eget augue non, viverra volutpat tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus molestie sem id interdum tempus.</p>
-            <button class="button txt-btn" type="button">Button</button>
+        <div  id="container-menu" class="container-menu-lateral">
+            <button id="btn-close" class="btn-menu-close" type="button" name="button">
+                <img class="icon-menu-close" src="icons/menu-close.svg" alt="Botón para cerrar menú">
+            </button>
+            <nav class="nav-lateral">
+                <ul class="list-menu-lateral txt-menu-lateral">
+                    <li class="item-menu-lateral">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="item-menu-lateral">
+                        <a href="">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <div class="card txt-main">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et diam gravida, mattis ligula ac, ultrices lacus. Mauris erat felis, iaculis eget augue non, viverra volutpat tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus molestie sem id interdum tempus. Praesent mattis diam imperdiet lorem pharetra condimentum. Vivamus varius accumsan augue, eu condimentum nisi sagittis eu. Fusce a urna ultricies, ultrices ipsum sed, pharetra ipsum.</p>
-            <button class="button txt-btn" type="button">Button</button>
+    </header>
+
+
+    <main class="main">
+        <div class="content">
+            <div class="container-title-grid">
+                <h2 class="title-lg">
+                    Lorem ipsum
+                </h2>
+            </div>
+            <ul class="grid">
+                <li class="card txt-main">
+                    <div>
+                        <p class="none-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et diam gravida, mattis ligula ac,
+                            ultrices lacus. Mauris erat felis, iaculis eget augue non, viverra volutpat tortor. Vestibulum ante
+                            ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus molestie sem id interdum
+                            tempus. Praesent mattis diam imperdiet lorem pharetra condimentum. Vivamus varius accumsan augue, eu
+                            condimentum nisi sagittis eu. Fusce a urna ultricies, ultrices ipsum sed, pharetra ipsum.</p>
+                        <p>Mauris sed arcu purus. Phasellus vitae auctor purus. Pellentesque turpis leo, sodales sit amet malesuada
+                            vel, rutrum eu ipsum. Duis fermentum augue ut felis eleifend, nec viverra dolor volutpat. Aenean pretium
+                            velit a orci efficitur.</p>
+                    </div>
+                    <button class="btn-main txt-btn" type="button">Button</button>
+                </li>
+                <li class="card txt-main">
+                    <p class="none-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et diam gravida, mattis ligula ac,
+                        ultrices lacus. Mauris erat felis, iaculis eget augue non, viverra volutpat tortor. Vestibulum ante
+                        ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus molestie sem id interdum
+                        tempus.</p>
+                    <button class="btn-main txt-btn" type="button">Button</button>
+                </li>
+                <li class="card txt-main">
+                    <p class="none-margin-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et diam gravida, mattis ligula ac,
+                        ultrices lacus. Mauris erat felis, iaculis eget augue non, viverra volutpat tortor. Vestibulum ante
+                        ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus molestie sem id interdum
+                        tempus. Praesent mattis diam imperdiet lorem pharetra condimentum. Vivamus varius accumsan augue, eu
+                        condimentum nisi sagittis eu. Fusce a urna ultricies, ultrices ipsum sed, pharetra ipsum.</p>
+                    <button class="btn-main txt-btn" type="button">Button</button>
+                </li>
+            </ul>
+
         </div>
-    </div>
-</main>
+    </main>
 
-<footer class="footer">
-    <p class="txt-footer">@ Waavi Studio S.L.</p>
-</footer>
+    <footer class="footer">
+        <p class="txt-footer">@ Waavi Studio S.L.</p>
+    </footer>
 
+    <script src="js/main.js" charset="utf-8"></script>
 </body>
 </html>
