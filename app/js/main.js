@@ -1,6 +1,5 @@
 'use strict';
 
-
 const buttonOpenNav = document.getElementById("btn-open");
 const buttonCloseNav = document.getElementById("btn-close");
 const menu = document.getElementById("container-menu");
